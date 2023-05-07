@@ -23,3 +23,5 @@ Processor is the service that processes queued events in the Pipeline. This serv
 ### Reverse Proxy (Caddy Server)
 
 All the HTTP calls into the platform are routed through the reverse proxy. This service also hosts the Web application (React App). We use Caddy as the reverse proxy which can automatically provision SSL certificates for the configured end points.
+
+Each of these services are stateless and can scale horizontally as long as the database can scale.
