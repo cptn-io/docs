@@ -36,7 +36,7 @@ To update a previously published App:
 
 ## License
 
-Any Apps shared will the community are treated as MIT licensed code.
+Any Apps shared with the community are treated as MIT licensed code.
 
 :::danger
 Do not share any properietary code or code available under different license with the community.
