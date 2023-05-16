@@ -21,6 +21,19 @@ Our git repo for shared apps is available at https://github.com/cptn-io/apps
 7. Create a new pull request for the newly created branch to merge to **dev** branch. Provide any additional details on the PR to help with review. If you need to share any sensitive information or credentials for testing the App, send an email to support@devraven.io with the details.
 8. We will review the PR, test the app and will merge it into main. 
 
+## Updating previously shared Apps
+
+To update a previously published App:
+1. Login to the instance.
+2. Navigate to the Destination or the Tranformer to be updated.
+3. Do the required changes to the Script or Configuration.
+4. Click **Export as App** button.
+5. A new JSON file will be downloaded.
+6. Review the contents of the JSON file. Update the name, logoUrl if required.
+7. Ensure that the value for the property **key** is same as the previously published app.
+8. The value for the property **hash** must be different.
+9. Follow the instructions as above to create a pull request for updating the app content.
+
 ## License
 
 Any Apps shared will the community are treated as MIT licensed code.
