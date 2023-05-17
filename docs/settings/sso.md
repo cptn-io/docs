@@ -31,5 +31,5 @@ The login page will now show **Sign In with SSO** button. Clicking this button w
 On successful login, you will be redirected to your cptn.io instance and will be automatically logged in.
 
 :::info
-We do not support Single Logout for SSO. Logging out from cptn.io instance will not automatically log your out from your identity provider.
+We do not support Single Logout for SSO. Logging out from cptn.io instance will not automatically log you out from your identity provider.
 :::
