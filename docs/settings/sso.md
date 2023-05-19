@@ -33,3 +33,11 @@ On successful login, you will be redirected to your cptn.io instance and will be
 :::info
 We do not support Single Logout for SSO. Logging out from cptn.io instance will not automatically log you out from your identity provider.
 :::
+
+## Details instructions for integrating with IdPs
+
+- [Integrate with Okta](./sso_providers/Okta.md)
+- [Integrate with Azure AD](./sso_providers/azuread.md)
+- [Integrate with Google Workspace](./sso_providers/google_workspace.md)
+
+If you need instructions for integrating with other IdPs, send an email to support@devraven.io.
