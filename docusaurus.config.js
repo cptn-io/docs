@@ -60,7 +60,7 @@ const config = {
         title: '',
         logo: {
           alt: 'cptn',
-          src: 'img/logo_light.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
