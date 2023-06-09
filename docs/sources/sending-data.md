@@ -20,6 +20,8 @@ We strongly recommend using only the primary key for sending the data. Secondary
 :::
 7. Use the following details for sending the data.
 
+### Individual Events
+
 ```
 Method: POST
 URL: <Event URL>
@@ -29,6 +31,19 @@ Headers:
 Body:
   Event Payload in JSON format
 ```
+
+### Batch Events
+
+```
+Method: POST
+URL: <Batch Event URL>
+Headers:
+  Content-Type: application/json
+  Authorization: <primary key> (required, if the Source is secured)
+Body:
+  Array of JSON event objects
+```
+
 8. The received event data will be sent to all configured pipelines for the Source.
 
 :::note
